@@ -54,9 +54,9 @@ int lastOccurence(int arr[], int n, int key){
 int main()
 {
     
-    int even[5]={1,2,3,3,5};
+    int even[10]={1,2,3,3,3,3,3,3,5,6};
     
-      cout<<"firstOccurence of 3 is "<<firstOccurence(even,5,3)<<endl;
-      cout<<"lastOccurence of 3 is "<<lastOccurence(even,5,3)<<endl;
+      cout<<"firstOccurence of 3 is "<<firstOccurence(even,10,3)<<endl;
+      cout<<"lastOccurence of 3 is "<<lastOccurence(even,10,3)<<endl;
     return 0;
 }
